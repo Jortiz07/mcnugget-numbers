@@ -11,17 +11,16 @@ public class Frobenius {
         || isMcNugget(value - 6)
         || isMcNugget(value - 9)
         || isMcNugget(value - 20));
-
-//    if (value < 0) {
-//      return false;
-//    } else if (value == 0 || value % 6 == 0 || value % 9 == 0 || value % 20 == 0) {
-//      return true;
-//    } else if ((value - 6) % 9 == 0 || (value - 6) % 20 == 0) {
-//      return true;
-//    } else if ((value - 9) % 6 == 0 || (value - 9) % 20 == 0) {
-//      return true;
-//    } else if ((value - 20) % 6 == 0 || (value - 20) % 9 == 0) {
-//    return true;}
-//      return false;
+    }
+    /**
+     * Return true if the stated value can be formed as a sum of non-negative integral multiples of
+     * the elements of packSizes.
+     *
+     * @param value target/goal number.
+     * @param packSize array of distinct, positive pack sizes, in descending order.
+     * @return true if value is a McNuggets number using the specific pack sizes, false otherwise.
+    */
+    public static boolean isGeneralMcNuggest(int value, int[] packSize) {
+    return false; // TODO Complete implementation for extra credit.
     }
   }
